@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #2d3436;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.box{
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0984e3;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  text-align: center;
+}
+h1{
+  color: white;
+  font-weight: 500;
+}
+.box input{
+  text-align: center;
+  border: 2px solid black;
+  outline: none;
+  font-size: 20px;
+  background: #dfe6e9;
+  border-radius: 10px;
+  height: 35px;
+  width: 90%;
+  transition: .25s;
+}
+.box input:hover{
+  width: 100%;
+}
+.box input[type = "submit"]{
+  background: #fab1a0;
+  width: 50%;
+  margin-top: 15px;
+  margin-right: 12px;
+
+}
+.box input[type = "submit"]:hover{
+  background: #00b894;
+  width: 55%;
+}
+.box input[type = "radio"]{
+  font-size: 12px;
+  padding: 5px;
+  width: 10%;
+  padding: 0px;
+  height: 20px;
+}
+/* select{
+  text-align: center;
+  border: 2px solid black;
+  padding :15px;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  background: #dfe6e9;
+  border-radius: 10px;
+  height: 35px;
+  width: 90%;
+  transition: .25s;
+} */
+
+.but button {
+    float: right;
+    padding:10px;
+    background-color: wheat;
+    border:2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    opacity: 1;
+    width: 100px;
+  }
+
+  .but button:hover{
+      background-color: green;
+      color: whitesmoke;
+  }
